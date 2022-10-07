@@ -9,6 +9,7 @@
     "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "test": "jest",
     "publish": "parcel build index.html --public-url ./ --out-dir docs"
   },
   "author": "Red Dragons",
