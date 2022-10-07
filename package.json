@@ -5,12 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest",
-    "publish": "parcel build index.html --public-url ./ --out-dir docs"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Red Dragons",
   "dependencies": {
